@@ -44,3 +44,4 @@ Version number created by this tool includes 4 parts `Major.Minor.Date.Build`
 **Note:** If you have followed the instruction from [How to use](https://github.com/BSarmady/VersionUP/blob/main/README.md#how-to-use) section above, this tool should run every time you build your application and automatically increment the version number. However if you have a CI\CD pipeline, you can include this with it so it only increment the version number on every release.
 
 **Note:** There is a limitation on how many digits and how big the build number and date can be. These numbers are WORD (unsigned 16 bit numbers) hence they can go up to max 65535. For build number I decided to reset back to 0 after it reach 65535 but for date I don't touch it as I think if you are still using this app in year 2066 and you aren't retired or haven't found a better solution or microsoft still hasn't update the version number to be at least 32 bits then good luck to you.
+
